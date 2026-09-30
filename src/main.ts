@@ -14,7 +14,7 @@ function noSearchDefaultPageRender() {
           <input
             type="text"
             class="url-input"
-            value="https://unkagi.link?q=%s"
+            value="https://stellarrounin.github.io/unkagi?q=%s"
             readonly
           />
 
