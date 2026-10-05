@@ -63,7 +63,7 @@ async function main() {
   const bangs = await getBangs();
 
   const LS_DEFAULT_BANG =
-    localStorage.getItem("default-bang") ?? "g";
+    localStorage.getItem("default-bang") ?? "brave";
 
   const defaultBang =
     bangs.find((bang) => bang.t === LS_DEFAULT_BANG);
